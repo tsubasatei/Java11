@@ -108,7 +108,7 @@ public class Employee {
     }
 
     public enum Status{
-        REEE,
+        FREE,
         BUSY,
         VACATION
     }

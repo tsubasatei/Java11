@@ -13,7 +13,7 @@ public class StringTest {
 
     @Test
     public void test2() throws Exception {
-        FileInputStream fis = new FileInputStream("src/com/xt/java11/StringTest.java");
+        FileInputStream fis = new FileInputStream("src/com/xt/java/java11/StringTest.java");
         byte[] buffer = new byte[fis.available()];
         fis.read(buffer);
         fis.close();
@@ -39,12 +39,12 @@ public class StringTest {
         String string1 = " \t  \r\n abc \t　";
         // 去除字符串首尾的空白，包括英文和其他所有语言中的空白字符
         String s = string1.strip();
-        System.out.println(s);
+        System.out.println(s);      // abc
         System.out.println(s.length()); // 3
 
         // 去除字符串首尾的空白，只能去除码值小于等于32的空白字符
         String s1 = string1.trim();
-        System.out.println(s1);
+        System.out.println(s1);   // abc_ _ _ 	　
         System.out.println(s1.length()); //6
 
         System.out.println("------------");

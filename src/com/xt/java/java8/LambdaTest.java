@@ -100,14 +100,14 @@ public class LambdaTest {
 
     @Test
     public void test5(){
-        Integer o = operrate(100, x -> x * x);
+        Integer o = operate(100, x -> x * x);
         System.out.println(o);
 
-        Integer o2 = operrate(50, x -> x + 200);
+        Integer o2 = operate(50, x -> x + 200);
         System.out.println(o2);
     }
 
-    public Integer operrate(Integer num, MyFun fun){
+    public Integer operate(Integer num, MyFun fun){
         return fun.getValue(num);
     }
     @Test

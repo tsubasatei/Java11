@@ -18,10 +18,10 @@ import java.util.stream.Stream;
 public class StreamAPITest {
 
     List<Employee> emps = Arrays.asList(
-            new Employee(101, "张三", 18, 9999.99, Employee.Status.REEE),
+            new Employee(101, "张三", 18, 9999.99, Employee.Status.FREE),
             new Employee(102, "李四", 59, 6666.66, Employee.Status.BUSY),
             new Employee(103, "王五", 28, 3333.33, Employee.Status.VACATION),
-            new Employee(104, "赵六", 8, 7777.77, Employee.Status.REEE),
+            new Employee(104, "赵六", 8, 7777.77, Employee.Status.FREE),
             new Employee(105, "田七", 38, 5555.55, Employee.Status.BUSY)
     );
 
@@ -332,7 +332,7 @@ public class StreamAPITest {
         System.out.println(first.get());
 
         Optional<Employee> optional = emps.parallelStream()
-                .filter(e -> e.getStatus().equals(Employee.Status.REEE))
+                .filter(e -> e.getStatus().equals(Employee.Status.FREE))
                 .findAny();
         System.out.println(optional.get());
 

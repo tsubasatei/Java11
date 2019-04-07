@@ -18,7 +18,7 @@ public class ForkJoinTest {
     public void test () {
         // 获取当前时间
         Instant start = Instant.now();
-        OptionalLong reduce = LongStream.rangeClosed(0, 10000000000l)
+        OptionalLong reduce = LongStream.rangeClosed(0, 10000000l)
                 .parallel()
                 .reduce(Long::sum);
         Instant end = Instant.now();
