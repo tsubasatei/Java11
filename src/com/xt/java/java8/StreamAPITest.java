@@ -248,7 +248,7 @@ public class StreamAPITest {
         System.out.println(sum);
 
         // 最大值
-        Optional<Employee> max = emps.stream().collect(Collectors.maxBy((x, y) -> Double.compare(x.getSalary(), y.getSalary())));
+        Optional<Employee> max = emps.stream().max(Comparator.comparingDouble(Employee::getSalary));
         System.out.println(max.get());
 
         // 最小值

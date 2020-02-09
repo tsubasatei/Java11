@@ -37,13 +37,14 @@ public class LambdaTest2 {
     // 将满足条件的字符串，放入集合中
     public List<String> filterList(List<String> list, Predicate<String> pre){
         List<String> strings = new ArrayList<>();
-        for (String str:list) {
+        for (String str : list) {
             if(pre.test(str)){
                 strings.add(str);
             }
         }
         return strings;
     }
+
     // Function<T, R>: 函数型接口
     @Test
     public void test3() {
@@ -62,7 +63,7 @@ public class LambdaTest2 {
     // 产生指定个数的整数，并放入集合中
     public List<Integer> getNumList(int num, Supplier<Integer> sup){
         List<Integer> list = new ArrayList<>();
-        for(int i=0; i<num; i++){
+        for(int i = 0; i < num; i++){
             Integer v = sup.get();
             list.add(v);
         }

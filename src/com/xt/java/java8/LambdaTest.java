@@ -110,6 +110,7 @@ public class LambdaTest {
     public Integer operate(Integer num, MyFun fun){
         return fun.getValue(num);
     }
+
     @Test
     public void test4(){
         String[] strings = {"aaa", "bbb", "ccc"};
