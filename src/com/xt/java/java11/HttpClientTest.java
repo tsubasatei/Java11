@@ -8,11 +8,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.concurrent.CompletableFuture;
 
-/**
- * @author xt
- * @create 2019/3/25 9:38
- * @Desc
- */
 public class HttpClientTest {
 
     // 异步

@@ -1,10 +1,5 @@
 package com.xt.java.java8;
 
-/**
- * @author xt
- * @create 2019/3/27 8:43
- * @Desc
- */
 public interface MyInterface {
 
     default String getName(){

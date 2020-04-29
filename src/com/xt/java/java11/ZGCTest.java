@@ -5,6 +5,7 @@ import java.util.List;
 
 public class ZGCTest {
 
+    // jdk14 支持 -XX:+UnlockExperimentalVMOptions XX:+UseZGC
     // Windos环境下不支持-XX:+UseZGC not supported，可在Linux下使用
     public static void main(String[] args) {
         List<Garbage> list = new LinkedList<>();

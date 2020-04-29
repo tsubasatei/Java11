@@ -4,11 +4,6 @@ import org.junit.Test;
 
 import java.io.FileInputStream;
 
-/**
- * @author xt
- * @create 2019/3/25 8:21
- * @Desc
- */
 public class StringTest {
 
     @Test
@@ -51,11 +46,11 @@ public class StringTest {
         // 去除字符串首部的空白
         String s2 = string1.stripLeading();
         System.out.println(s2);
-        System.out.println(s2.length());
+        System.out.println(s2.length()); // 6
 
         // 去除字符串尾部的空白
         String s3 = string1.stripTrailing();
         System.out.println(s3);
-        System.out.println(s3.length());
+        System.out.println(s3.length()); // 10
     }
 }

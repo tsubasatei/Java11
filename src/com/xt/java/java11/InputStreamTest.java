@@ -5,12 +5,7 @@ import org.junit.Test;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * @author xt
- * @create 2019/3/25 9:19
- * @Desc
- */
-public class InputStreanTest {
+public class InputStreamTest {
 
     @Test
     public void test() throws IOException {

@@ -114,6 +114,7 @@ public class LambdaTest {
     @Test
     public void test4(){
         String[] strings = {"aaa", "bbb", "ccc"};
+        // 数组声明初始化不能分开
 //        String[] strings1;
 //        string1 = {"aaa", "bbb", "ccc"};
     }

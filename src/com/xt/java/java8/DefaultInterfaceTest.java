@@ -1,10 +1,6 @@
 package com.xt.java.java8;
 
-/**
- * @author xt
- * @create 2019/3/27 8:44
- * @Desc
- */
+// 测试接口的默认方法和静态方法
 public class DefaultInterfaceTest {
     public static void main(String[] args) {
         SubClass sc = new SubClass();

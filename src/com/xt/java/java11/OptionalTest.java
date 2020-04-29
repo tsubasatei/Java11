@@ -4,11 +4,6 @@ import org.junit.Test;
 
 import java.util.Optional;
 
-/**
- * @author xt
- * @create 2019/3/25 8:44
- * @Desc
- */
 public class OptionalTest {
     @Test
     public void test(){

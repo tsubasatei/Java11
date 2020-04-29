@@ -39,9 +39,9 @@ public class OptionalTest {
     @Test
     public void test2 () {
         Optional<Employee> op = Optional.ofNullable(null);
-        /*if(op.isPresent()) {
+        if(op.isPresent()) {
             System.out.println(op.get());  // NoSuchElementException
-        }*/
+        }
 
 //        Employee emp = op.orElse(new Employee(10));
 

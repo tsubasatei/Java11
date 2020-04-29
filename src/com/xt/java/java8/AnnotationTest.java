@@ -20,12 +20,13 @@ public class AnnotationTest {
 
         MyAnnotation[] mas = m.getAnnotationsByType(MyAnnotation.class);
         for (MyAnnotation ma : mas) {
-            System.out.println(ma.value());
+            System.out.println(ma.value()); // hello world
         }
     }
 
-    @MyAnnotation("hello")
-    @MyAnnotation("world")
+    @MyAnnotations({@MyAnnotation("123")})
+//    @MyAnnotation("hello")
+//    @MyAnnotation("world")
     public void show(@MyAnnotation("abe") String str) {
 
     }

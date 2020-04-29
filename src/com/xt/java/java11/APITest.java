@@ -20,7 +20,7 @@ public class APITest {
         System.out.println(localDate);  // 2019-03-24
 
         // 在添加重复元素时，不是无法添加，而是抛出异常
-        //Set<Integer> set = Set.of(100, 50, 30, 30, 50);
+//        Set<Integer> set = Set.of(100, 50, 30, 30, 50);
         Set<Integer> set = Set.of(100, 50, 30);
         System.out.println(set);
         System.out.println(set.getClass());

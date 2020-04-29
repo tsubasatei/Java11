@@ -55,10 +55,10 @@ public class LocalDateTimeTest {
         LocalDateTime ldt = LocalDateTime.now();
         System.out.println(ldt);
 
-        LocalDateTime ldt2 = ldt.withDayOfMonth(10);
+        LocalDateTime ldt2 = ldt.withDayOfMonth(10); // 当月第10天
         System.out.println(ldt2);
 
-        LocalDateTime ldt3 = ldt.with(TemporalAdjusters.next(DayOfWeek.SUNDAY));
+        LocalDateTime ldt3 = ldt.with(TemporalAdjusters.next(DayOfWeek.SUNDAY)); // 下一个星期日
         System.out.println(ldt3);
 
         // 自定义下一个工作日
@@ -152,8 +152,8 @@ public class LocalDateTimeTest {
         System.out.println(ldt4);
 
         System.out.println(ldt.getYear());
-        System.out.println(ldt.getMonth());
-        System.out.println(ldt.getMonthValue());
+        System.out.println(ldt.getMonth()); // APRIL
+        System.out.println(ldt.getMonthValue()); //4
         System.out.println(ldt.getDayOfMonth());
         System.out.println(ldt.getHour());
 

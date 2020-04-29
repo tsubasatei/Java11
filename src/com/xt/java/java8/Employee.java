@@ -2,11 +2,6 @@ package com.xt.java.java8;
 
 import java.util.Objects;
 
-/**
- * @author xt
- * @create 2019/3/25 18:40
- * @Desc
- */
 public class Employee {
     private Integer id;
     private String name;

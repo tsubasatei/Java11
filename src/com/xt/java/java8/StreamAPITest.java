@@ -183,7 +183,6 @@ public class StreamAPITest {
      *
      * collect: 将流转换为其他形式。接收一个 Collector 接口的实现，用于给 Stream 中元素做汇总的方法。
      */
-
     @Test
     public void test14 () {
         String collect = emps.stream().map(Employee::getName).collect(Collectors.joining(",", "===", "---"));

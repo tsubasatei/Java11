@@ -3,11 +3,6 @@ package com.xt.java.java11;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author xt
- * @create 2019/3/25 11:18
- * @Desc
- */
 class Garbage{
     private double d1 = 1;
     private double d2 = 2;

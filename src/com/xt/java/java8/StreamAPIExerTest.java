@@ -7,11 +7,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-/**
- * @author xt
- * @create 2019/3/26 16:27
- * @Desc
- */
 public class StreamAPIExerTest {
 
     /*

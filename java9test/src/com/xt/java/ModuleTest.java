@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  */
 public class ModuleTest {
 
-    public static final Logger logger = Logger.getLogger("atguigu");
+    public static final Logger logger = Logger.getLogger("xt");
 
     public static void main(String[] args) {
         Person person = new Person("Tom", 16);

@@ -1,10 +1,6 @@
 package com.xt.java.java8;
 
-/**
- * @author xt
- * @create 2019/3/25 19:25
- * @Desc
- */
+// 函数接口
 @FunctionalInterface
 public interface MyFun3<R, T> {
 

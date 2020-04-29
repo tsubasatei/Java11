@@ -1,10 +1,5 @@
 package com.xt.java.bean;
 
-/**
- * @author xt
- * @create 2019/3/27 13:47
- * @Desc
- */
 public class Person {
     private String name;
     private Integer age;
